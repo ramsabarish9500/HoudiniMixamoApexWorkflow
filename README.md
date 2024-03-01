@@ -35,11 +35,11 @@ For more info see: https://www.sidefx.com/contentlibrary/electra-rig/
 
 ## Setup Instructions
   ### STEP 1:
-    Install all the 4 hda's present inside the hda folder.
-    Eg: Assets --> Install Digital Asset Library --> Select all 4 HDA files --> Install
+  Install all the 4 hda's present inside the hda folder.
+  Eg: Assets --> Install Digital Asset Library --> Select all 4 HDA files --> Install
   ### STEP 2:
-    Create a New Tool in any shelf of choice. Name it accordinglys. In the Script Tab Copy the code from "MixamoApexConverterTool.py" and paste it and accept.
-    Eg: In Animatin Shelf --> Right Click --> New Tool --> Script(TAB) --> Paste the Code --> Accept
+  Create a New Tool in any shelf of choice. Name it accordinglys. In the Script Tab Copy the code from "MixamoApexConverterTool.py" and paste it and accept.
+  Eg: In Animatin Shelf --> Right Click --> New Tool --> Script(TAB) --> Paste the Code --> Accept
 
 ## Python Plugin Overview
   Plugin is developed with pyside2.
@@ -62,15 +62,15 @@ For more info see: https://www.sidefx.com/contentlibrary/electra-rig/
 
 ## How To Use the Python plugin
   ### STEP 1:
-     Open the tool.
+  Open the tool.
   ### STEP 2:
-     Click the Add Character button and select the character fbx file from mixamo.(It can contain animated pose but only the character is extracted not the animation).
+  Click the **Add Character** button and select the character fbx file from mixamo.(It can contain animated pose but only the character is extracted not the animation).
   ### STEP 3:
-     Click the Add Animations button and select multiple animation fbx clips from mixamo. Order of selection is important.
+  Click the **Add Animations** button and select multiple animation fbx clips from mixamo. Order of selection is important.
   ### STEP 4:
-     Delete any extra animations by selecting and using the Delete key. Copy and Stack the animations using drag and drop. Use the loop count to extend the animation
+  Delete any extra animations by selecting and using the **Delete** key. Copy and Stack the animations using drag and drop. Use the loop count to extend the animation
   ### STEP 5(Optional):
-     Click the Preview button to create a subnetwork with motion clip's merged. Changed the blend values if required.
+  Click the **Preview** button to create a subnetwork with motion clip's merged. Changed the blend values if required.
   ### STEP 6:
-     Click the Apex Convert button to create the apex network. Enter into scene animate node and modify the animations
+  Click the **Apex** Convert button to create the apex network. Enter into scene animate node and modify the animations
    
