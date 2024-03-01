@@ -1,4 +1,4 @@
-# Houdini Mixamo to Apex Workflow
+# Mixamo to Houdini Apex Workflow
  Simple Automated workflow for implementing Mixamo animations and characters in Houdini APEX based workflow.
 
 # WORKFLOW
