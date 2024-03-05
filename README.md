@@ -10,7 +10,7 @@ For more info see: https://www.sidefx.com/contentlibrary/electra-rig
 
 Mixamo rigs are first mapped and renamed with respect to electra rig. Captured weight mappings are also renamed. 
 Guide Skeletons are created based on the remapped names.(Non Destructive)
-Base Apex Rig is then created and the motionclips are retargetted.
+Base Apex Rig is then created and the animations are then transferred.
 
 Python Tool is used to streamline the workflow.
 Character and animations can be selected within the python plugin. Multiple Animations can be stacked up or looped via plugin.
