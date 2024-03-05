@@ -23,14 +23,14 @@ For more info see: https://www.sidefx.com/contentlibrary/electra-rig/
 
 ## HDA Descriptions
    ### MixamoNameRemap
-     Make's use of the map points sop to map the names between electra rig and mixamo rig.
+     Use points sop to map the names between electra rig and mixamo rig.
      Rename the Captured Atrributes in Captured geometry
      Cleans the "name" attribute
    ### MixamoApexConfigurator
      Create tags for Apex. Inspired from the electra rig example
      Create a Guide Skeleton procedurally with the remapped names. Modify the Guide skeletons if required.(EG: ArmPole Spacing)
    ### ApexBipedRig
-     Uses the electra rig and reimplements for mixamo characters
+     Implements the electra inspired rig for mixamo characters
    ###  ApexTransferMixamoAnimation
      Transfer the animation clips to the new apex based mixamo character
      New animation will be added to the apex scene
@@ -40,7 +40,7 @@ For more info see: https://www.sidefx.com/contentlibrary/electra-rig/
   Install all the 4 hda's present inside the hda folder.
   Eg: Assets --> Install Digital Asset Library --> Select all 4 HDA files --> Install
   ### Step 2:
-  Create a New Tool in any shelf of choice. Name it accordinglys. In the Script Tab Copy the code from "MixamoApexConverterTool.py" and paste it and accept.
+  Create a New Tool in any shelf of choice. Name it accordingly. In the Script Tab Copy the code from "MixamoApexConverterTool.py" and paste it and accept.
   Eg: In Animatin Shelf --> Right Click --> New Tool --> Script(TAB) --> Paste the Code --> Accept
 
 ## Python Plugin Overview
