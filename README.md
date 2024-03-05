@@ -5,7 +5,9 @@
 The HDA's and python plugin will create basic workflow which needs to be modified as per requirement. This is just a mere skeleton
 
 Electra Base Rig is used as a reference for the workflow.
-For more info see: https://www.sidefx.com/contentlibrary/electra-rig/ .
+
+For more info see: https://www.sidefx.com/contentlibrary/electra-rig
+
 Mixamo rigs are first mapped and renamed with respect to electra rig. Captured weight mappings are also renamed. 
 Guide Skeletons are created based on the remapped names.(Non Destructive)
 Base Apex Rig is then created and the motionclips are retargetted.
@@ -30,7 +32,7 @@ For more info see: https://www.sidefx.com/contentlibrary/electra-rig/
    ### ApexBipedRig
      Uses the electra rig and reimplements for mixamo characters
    ###  ApexTransferMixamoAnimation
-     Retarget the animation clips to the new apex based mixamo character
+     Transfer the animation clips to the new apex based mixamo character
      New animation will be added to the apex scene
 
 ## Setup Instructions
@@ -66,7 +68,8 @@ For more info see: https://www.sidefx.com/contentlibrary/electra-rig/
   ### Step 2:
   Click the **Add Character** button and select the character fbx file from mixamo.(It can contain animated pose but only the character is extracted not the animation).
   ### Step 3:
-  Click the **Add Animations** button and select multiple animation fbx clips from mixamo. Order of selection is important.
+  Click the **Add Animations** button and select multiple animation fbx clips from mixamo. **Order of selection is important**.
+  **Make sure the animations and the character are for the same captured geometry. Animation retargetting is not handled.**
   ### Step 4:
   Delete any extra animations by selecting and using the **Delete** key. Copy and Stack the animations using drag and drop. Use the loop count to extend the animation
   ### Step 5(Optional):
