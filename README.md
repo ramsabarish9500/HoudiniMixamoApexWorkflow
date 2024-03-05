@@ -17,7 +17,7 @@ Character and animations can be selected within the python plugin. Multiple Anim
 Previewing the stacked motion clips are available and complete apex workflow can be generated from the plugin itself
 
 ## Disclaimer
-I'm not a rigging artist. I have reused the Apex Component Scripts from the electra rig example.
+I'm not a rigging artist. I have used the Apex Component Scripts from the electra rig example as reference and automated the workflow.
 
 For more info see: https://www.sidefx.com/contentlibrary/electra-rig/
 
